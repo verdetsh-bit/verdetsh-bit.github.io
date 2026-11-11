@@ -3,10 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>verde — конструктор футболки</title>
-<meta name="description" content="Соберите свою футболку verde: ворот, посадка, ткань и нашивки.">
-<meta property="og:title" content="verde — конструктор футболки">
-<meta property="og:description" content="Соберите свою футболку: ворот, посадка, ткань и нашивки.">
+<title>verde — футболки с нашивками на заказ | конструктор футболки</title>
+<meta name="description" content="verde — дизайнерские футболки с нашивками на заказ. Соберите свою в конструкторе: выберите ворот, посадку и ткань, расставьте нашивки и отправьте заказ онлайн.">
+<link rel="canonical" href="https://verdetsh-bit.github.io/">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="verde">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:url" content="https://verdetsh-bit.github.io/">
+<meta property="og:title" content="verde — футболки с нашивками на заказ">
+<meta property="og:description" content="Соберите свою футболку в конструкторе: ворот, посадка, ткань и нашивки.">
+<meta name="theme-color" content="#0A6B35">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","@id":"https://verdetsh-bit.github.io/#website","url":"https://verdetsh-bit.github.io/","name":"verde","alternateName":"verde — футболки с нашивками","inLanguage":"ru","description":"verde — дизайнерские футболки с нашивками на заказ. Соберите свою в конструкторе: выберите ворот, посадку и ткань, расставьте нашивки и отправьте заказ онлайн."},
+{"@type":"Brand","@id":"https://verdetsh-bit.github.io/#brand","name":"verde","url":"https://verdetsh-bit.github.io/","description":"Дизайнерские футболки с нашивками на заказ"}
+]}
+</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%230A6B35'/%3E%3Cpath transform='translate(14 22) scale(.72)' d='M50 58 C40 30 26 14 4 10 C22 4 46 14 50 40 C54 14 78 4 96 10 C74 14 60 30 50 58 Z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -111,6 +124,11 @@ label.f.bad input,label.f.bad textarea{border-color:var(--err)}
 .done{align-items:flex-start;gap:14px}
 .done h2{font-size:24px;font-weight:800}
 .done p{font-size:15px;max-width:60ch}
+.about h2{font-size:20px}
+.about h3{font-size:16px;font-weight:800}
+.about p,.about li{font-size:15px;line-height:1.5;max-width:70ch}
+.about ol,.about ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.about-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:22px 28px}
 .test{font-size:13px;background:#FFF6DA;border:2px solid #C99A1E;border-radius:14px;padding:12px 14px;color:#3D2E00}
 .test pre{margin:8px 0 0;white-space:pre-wrap;overflow-wrap:anywhere;font:500 12.5px/1.5 ui-monospace,Menlo,Consolas,monospace}
 
@@ -143,7 +161,7 @@ label.f.bad input,label.f.bad textarea{border-color:var(--err)}
 <header class="top">
   <div class="brand">
     <span class="logo"><svg viewBox="0 0 100 60" aria-hidden="true"><path d="M50 58 C40 30 26 14 4 10 C22 4 46 14 50 40 C54 14 78 4 96 10 C74 14 60 30 50 58 Z" fill="currentColor"/></svg>verde</span>
-    <h1>Конструктор футболки</h1>
+    <h1>Конструктор футболок с нашивками</h1>
   </div>
   <p>Выберите ворот, посадку и ткань, расставьте нашивки и отправьте заказ</p>
 </header>
@@ -214,7 +232,7 @@ label.f.bad input,label.f.bad textarea{border-color:var(--err)}
       <button type="button" data-v="back">Сзади</button>
     </div>
     <div class="tee" id="tee">
-      <svg class="base" viewBox="0 0 600 640" role="img" aria-label="Футболка с нашивками">
+      <svg class="base" viewBox="0 0 600 640" role="img" aria-label="Футболка verde с нашивками: предпросмотр">
         <path id="pInner" fill="#CBD0D6"/>
         <path id="pBody" fill="#FBFBF8" stroke="#C5CAD3" stroke-width="1.5" stroke-linejoin="round"/>
         <path id="pRib" fill="none" stroke="#E3E5E4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -296,6 +314,32 @@ label.f.bad input,label.f.bad textarea{border-color:var(--err)}
       <div class="test" id="testBox" hidden></div>
     </div>
   </form>
+</section>
+
+<section class="panel about" aria-labelledby="aboutTitle">
+  <div class="block">
+    <h2 id="aboutTitle">Футболки verde с нашивками на заказ</h2>
+    <p>verde — дизайнерские футболки, которые вы собираете сами. В конструкторе можно выбрать ворот, посадку и ткань, а затем расставить нашивки спереди и сзади так, как вам нравится. Мы шьём футболку по вашему макету.</p>
+  </div>
+  <div class="about-grid">
+    <div class="block">
+      <h3>Как заказать</h3>
+      <ol>
+        <li>Выберите ворот, посадку и ткань.</li>
+        <li>Добавьте нашивки и перетащите их на нужное место или возьмите готовую раскладку.</li>
+        <li>Оставьте имя и контакт и отправьте заказ. Мы свяжемся с вами, чтобы подтвердить его и назвать стоимость.</li>
+      </ol>
+    </div>
+    <div class="block">
+      <h3>Что можно выбрать</h3>
+      <ul>
+        <li><b>Ворот:</b> полукруг или треугольник.</li>
+        <li><b>Посадка:</b> классическая, оверсайз или пошив по индивидуальному размеру.</li>
+        <li><b>Ткань:</b> футер в две нити или кулирка плотностью 230 г/м².</li>
+        <li><b>Нашивки:</b> солнце, капля, трава, цветок, дерево и лист.</li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 <section class="panel done" id="donePanel" hidden tabindex="-1">
